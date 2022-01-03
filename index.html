@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>A site</title>
+        <title>Un site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
     </head>
         <style>
 
     body {
     background: #191C25 !important;
     margin-top: 35vh; 
-    margin-left: 55vh;
+    margin-left: 17vh;
 }
     .bgvideo{
     object-fit: cover;
@@ -21,20 +22,21 @@
     width: 100%;
     height: 100%;
 }
+
+
     img {
     width: 100px;
-    position: absolute;
-    right: 959px;
+    right: 170vh;
+    position: fixed;
     border-radius: 50px;
-    float: left;
     margin: 10px;
-    box-shadow: 10px 25px 50px #212430;
+    box-shadow: 10px 20px 40px #212430;
     transition: .25s;
     animation-duration: 1s;
 }
 
     img:hover {
-    width: 120px;
+    width: 110px;
     border-radius: 100px;
     box-shadow: 10px 25px 50px #2f3342;
     transition: .25s;
@@ -45,7 +47,7 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
     top: 36px;
-    right: -40px;
+    right: -40vh;
     color: rgb(196, 196, 196);
     font-weight: medium;
     transition: .25s;
@@ -63,7 +65,7 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
     top: 26px;
-    right: -40px;
+    right: -40vh;
     color: #8c8c8c;
     font-weight: lighter;
     transition: .25s;
@@ -79,7 +81,7 @@
 
     .button1 {
     position: relative;
-    right: -290px;
+    right: -80vh;
     top: -30px;
     background-color: #555555;
     font-weight: light;
@@ -104,7 +106,7 @@
 
     .button2 {
     position: relative;
-    right: -290px;
+    right: -80vh;
     top: -30px;
     border-radius: 12px;
     font-weight: light;
@@ -126,18 +128,23 @@
     box-shadow: 5px 5px 5px #2f334294;
     transition: .25s;
     animation-duration: 1s;
-}    
+}
+
+    html{
+    width: 960px;
+
+    }
 
 </style>
     <body>
-        <div>
             <video class="bgvideo" src="ok.mp4" autoplay="" loop="" poster="image.jpg"></video>
+            <audio autoplay loop src="foc.mp3"></audio>
+        <div class="center">
+            <img src="amuzant.jpg">
+            <p class="text">George</p>
+            <p class="text2">Designer profesionist</p>
+            <a class="button1" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Youtube</a>
+            <a class="button2" href='https://imgur.com/a/SePpFZN'>Maimuta amuzanta</a>
         </div>
-        <audio autoplay loop src="foc.mp3"></audio>
-        <img src="amuzant.jpg">
-        <p class="text">George</p>
-        <p class="text2">Designer profesionist html/css</p>
-        <a class="button1" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Youtube</a>
-        <a class="button2" href='https://imgur.com/a/SePpFZN'>Maimuta amuzanta</a>
     </body>
 </html>
